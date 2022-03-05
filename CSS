@@ -1,0 +1,575 @@
+.wrapper, .header {
+    display: flexbox;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    height: 25px;
+    max-width: 1200px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav a {
+    color: gray;
+}
+
+.fa-chevron-down {
+    padding: 10px;
+    color: gray;
+}
+
+.fa-chevron-left {
+    padding: 10px;
+    color: gray;
+}
+
+.demo-nav {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    background-color: #fff;
+}
+
+.demo-nav ul {
+    display: flex;
+    float: right;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+.demo-nav li {
+    padding-right: 25px;
+}
+
+
+.logo {
+    display: flex;
+    width: 15%;
+    height: 15%;
+}
+
+.cta {
+    padding: 10px 10px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background-color: blue;
+    color: #fff;
+}
+
+ul, h1, h2, h3, h4, h5, p, a {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+
+.second-cards p, .price-wrapper p, .price-section p, .fourth-section p, .company-contact p {
+    color: gray;
+}
+
+.first-section {
+    display: flexbox;
+    flex-direction: row;
+    float: left;
+}
+
+.first-section h1 {
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 72px;
+    margin-bottom: 15px;
+}
+
+.phrase {
+    font-size: 21px;
+    line-height: 28px;
+    color: gray;
+    margin-top: auto;
+    padding-left: 0px;
+}
+
+.play {
+    padding: 12px 15px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background-color: blue;
+    color: #fff;
+}
+
+.fa-play-circle {
+    color: #fff;
+}
+
+.first-section a {
+    padding-left: 20px;
+}
+
+.logo-spheres {
+    display: flexbox;
+    float: right;
+    background-color: #fff;
+}
+
+.logo-one {
+    position: absolute;
+    top: 140px;
+    left: 800px;
+}
+
+.logo-two {
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+}
+
+.logo-three {
+    position: absolute;
+    top: 170px;
+    left: 1300px;
+}
+
+.logo-four {
+    position: absolute;
+    top: 370px;
+    left: 800px;
+}
+
+.logo-five {
+    position: absolute;
+    top: 370px;
+    left: 1100px;
+}
+
+.logo-six {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 475px;
+    left: 925px;
+}
+
+.logo-seven {
+    position: absolute;
+    top: 525px;
+    left: 1300px;
+}
+
+.logo-spheres span {
+    border-radius: 50%;
+}
+
+.logo-spheres img {
+    width: 40%;
+    height: 40%;
+}
+
+.second-section {
+    display: grid;
+    height: auto;
+    width: 1200px;
+    padding-top: 125px;
+    text-align: center;
+}
+
+.second-section h2 {
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.second-section p {
+    margin-top: 5px;
+    color: gray;
+    padding-bottom: 50px;
+}
+
+.second-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    flex-direction: row;
+    gap: 3px;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.second-cards img {
+    width: 25%;
+    height: 25%;
+}
+
+.card {
+    flex-direction: row;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.card > h5 {
+    font-size: 20px;
+    margin-bottom: auto;
+}
+
+.third-section {
+    display: flexbox;
+    float: left;
+    justify-content: space-around;
+    margin-bottom: -100px;
+}
+
+.third-section h3 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.link {
+    padding: 15px 20px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background-color: blue;
+    color: #fff;
+}
+
+.third-section img {
+    float: right;
+    position: relative;
+    top: -150px;
+    left: 315px;
+    width: 75%;
+    height: 75%;
+}
+
+.fourth-section {
+    display: grid;
+    height: auto;
+    width: 1200px;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fourth-section h2 {
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.span-section {
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+
+.span-section p {
+    color: black;
+    padding: 55px;
+    align-items: center;
+}
+
+.circle-dot {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    background-color: #e4eef2;
+    border-radius: 50%;
+}
+
+.dot {
+    display: inline-block;
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    background-color: blue;
+    border-radius: 50%;
+    top: 45%;
+    left: 45%;
+}
+
+.line1 {
+    transform: rotate(90deg);
+    width: 2px;
+    position: relative;
+    top: -50px;
+    left: 100px;
+}
+
+.line2 {
+    transform: rotate(90deg);
+    width: 2px;
+    position: relative;
+    top: -50px;
+    left: 100px;
+}
+
+.line3 {
+    transform: rotate(90deg);
+    width: 2px;
+    position: relative;
+    top: -50px;
+    left: 100px;
+}
+
+.video-playback img {
+    padding-top: 75px;
+    width: 90%;
+    height: 90%;
+}
+
+.video-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.fifth-section {
+    display: flex;
+    max-width: 1200px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+ .fifth {
+    padding-left: 75px;
+} 
+
+.fifth-section img {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+.dots {
+    position: absolute;
+    left: 200px;
+    z-index: -1;
+}
+
+.testimonial {
+    float: right;
+}
+
+.testimonial img {
+    width: 30%;
+}
+
+.hubspot {
+    padding-left: 75px;
+    padding-top: 100px;
+}
+
+.quote {
+    padding: 75px;
+    font-size: 21px;
+    line-height: 36px;
+    color:black;
+    margin-top: auto;
+}
+
+.companies {
+    max-width: 1200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.companies img{
+    width: 10%;
+    height: 10%;
+    padding: 25px 40px;
+}
+
+.price-section {
+    display: grid;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.price-section h2, .form-section h2 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.price-section p {
+    text-align: center;
+    margin-top: -20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.price-wrapper img {
+    width: 25%;
+    height: 25%;
+}
+
+.price-wrapper h4 {
+    font-size: 20px;
+}
+
+.first-price {
+    flex-direction: row;
+    width: 450px;
+    padding: 25px 25px;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.first-price > button {
+    margin-top: 50px;
+}
+
+.first-price > h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.first-price > p {
+    margin-top: 30px;
+}
+
+.pricecard-wrapper {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    flex-direction: row;
+    gap: 3px;
+    justify-content: space-between;
+    padding-left: 75px;
+    padding-bottom: 100px;
+
+}
+
+.pricecards {
+    flex-direction: column;
+    padding: 15px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1c2059;
+    max-width: 1200px;
+}
+
+.form-section h2, p {
+    color: #fff;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.form-section {
+    flex-direction: row;
+    flex: 1;
+    padding: 25px 25px;
+    float: left;
+}
+
+.form-quote {
+    font-size: 28px;
+    color: #fff;
+    text-align: left;
+}
+
+.form-section img {
+    width: 5%;
+    border-radius: 50%;
+    padding-right: 30px;
+}
+
+.rule-width {
+    margin-left: 0px;
+    width: 200px;
+}
+
+.hire-form {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 15px 15px;
+    background-color: #fff;
+    float: right;
+}
+
+.fill-form {
+    justify-content: center;
+    padding: 15px 15px;
+    width: 400px;
+}
+
+.fill-form > input, textarea {
+    padding: 15px;
+    border-radius: 8px;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.check-text {
+    color: gray;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    max-width: 1200px;
+    height: 300px;
+    padding-top: 75px;
+    margin-bottom: 50px;
+}
+
+.fa-location-arrow, .fa-phone-alt {
+    color: gray;
+    margin: -10px;
+}
+
+.company-contact {
+    display: grid;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.company-contact img {
+    width: 75%;
+}
+
+@media (min-width: 1200px) {
+    .container { max-width: 1140px; }
+  }
+
+@media (min-width: 768px) {
+    .container { max-width: 720px; }
+  }  
